@@ -22,7 +22,7 @@ p {
     background: #ffffff58;
     padding: 0.8em;
     border-radius: 0.5em;
-    width: 60%;
+    width: max(60%, 30em);
     text-align: justify;
     text-indent: 4em;
     margin: auto;
