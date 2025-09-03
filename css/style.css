@@ -1,0 +1,31 @@
+html {}
+
+body {
+    font-size: 22px;
+    padding: 20px;
+    margin: 15px;
+    border: solid 2px black;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+    text-align: justify;
+}
+
+p span {
+    background-color: gold;
+}
+
+.gray {
+    color: gray
+}
+
+#second {
+    color: red;
+    font-style: italic;
+}
