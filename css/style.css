@@ -4,17 +4,22 @@ body {
     line-height: 1.5;
     background: #000000;
     color: #ffefd5;
+    width: max(60%, 400px);
+    margin: auto
+}
+
+hr {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 h1,
-hr,
 h2 {
     text-align: left;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    border: solid yellow 1px;
 }
 
 p {
@@ -22,8 +27,6 @@ p {
     background: #ffffff58;
     padding: 0.8em;
     border-radius: 0.5em;
-    width: max(60%, 30em);
     text-align: justify;
     text-indent: 4em;
-    margin: auto;
 }
