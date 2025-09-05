@@ -1,11 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background: #000000;
-    color: #ffefd5;
-    width: max(60%, 400px);
-    margin: auto
+    margin: auto;
+    text-align: justify;
 }
 
 hr {
@@ -16,17 +20,35 @@ hr {
 
 h1,
 h2 {
-    text-align: left;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    border: solid yellow 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+h1 {
+    text-align: center;
 }
 
 p {
-    color: #ffefd5;
-    background: #ffffff58;
     padding: 0.8em;
-    border-radius: 0.5em;
-    text-align: justify;
     text-indent: 4em;
+    background-color: #000000;
+    border-radius: .5em;
+    width: max(90%, 341px);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container {
+    color: #ffefd5;
+    padding: .4em;
+    border-radius: .7em;
+    width: max(80%, 390px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    background-color: #ffefd55a;
+
 }
